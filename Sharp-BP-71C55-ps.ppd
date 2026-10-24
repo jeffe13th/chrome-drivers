@@ -1869,7 +1869,7 @@
 *% **** Input Tray Options *****************************************************
 *OpenUI *Option5/Input Tray Options: PickOne
 *OrderDependency: 0.0 AnySetup *Option5
-*DefaultOption5: TandemTrayDrawer
+*DefaultOption5: NotInstalled
 *Option5 NotInstalled/One Tray: ""
 *Option5 1TrayDrawer/Two Trays: ""
 *Option5 2TrayDrawer/Three Trays: ""
@@ -1904,7 +1904,7 @@
 *% **** Large Capacity Tray ****************************************************
 *OpenUI *Option6/Large Capacity Tray: PickOne
 *OrderDependency: 0.0 AnySetup *Option6
-*DefaultOption6: Installed
+*DefaultOption6: NotInstalled
 *Option6 NotInstalled/Not Installed: ""
 *Option6 Installed/BP-LC10: ""
 *?Option6: "
@@ -1919,7 +1919,7 @@
 *% **** Output Tray Options ****************************************************
 *OpenUI *Option1/Output Tray Options: PickOne
 *OrderDependency: 0.0 AnySetup *Option1
-*DefaultOption1: LSSFinisher
+*DefaultOption1: NotInstalled
 *Option1 NotInstalled/Not Installed: ""
 *Option1 InnerFinisher/Inner Finisher: ""
 *Option1 Finisher/Finisher: ""
@@ -1960,7 +1960,7 @@
 *% **** Punch Module ***********************************************************
 *OpenUI *Option9/Punch Module: PickOne
 *OrderDependency: 0.0 AnySetup *Option9
-*DefaultOption9: PModule33
+*DefaultOption9: NotInstalled
 *Option9 NotInstalled/Not Installed: ""
 *Option9 PModule33/3 Holes: ""
 *Option9 PModule24/2<2F>4 Holes: ""
@@ -2004,7 +2004,7 @@
 
 *% **** Folding Unit ***********************************************************
 *OpenUI *Option7/Folding Unit: Boolean
-*DefaultOption7: True
+*DefaultOption7: False
 *Option7 False/Not Installed: ""
 *Option7 True/Installed: ""
 *?Option7: "
