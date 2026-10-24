@@ -145,7 +145,7 @@
 *UIConstraints: *Option1 SSFinisher		*OutputBin Output3
 *UIConstraints: *Option1 SSFinisher		*ARStaple Staple3
 *% ---- Saddle Stitch Finisher (Large Stacker)
-*UIConstraints: *Option1 LSSFinisher		*OutputBin Output0
+*% *UIConstraints: *Option1 LSSFinisher *OutputBin Output0
 *UIConstraints: *Option1 LSSFinisher		*OutputBin Output2
 *UIConstraints: *Option1 LSSFinisher		*OutputBin Output3
 
@@ -170,7 +170,7 @@
 *% ---- Right Tray -------------------------------------------------------------
 *UIConstraints: *Option2 False		*OutputBin Output8
 *% ---- Folding Unit ----------------------------------------------------------
-*UIConstraints: *Option7 True		*OutputBin Output0
+*% *UIConstraints: *Option7 True		*OutputBin Output0
 *UIConstraints: *Option7 False		*OutputBin OutputFU
 *UIConstraints: *Option7 False		*ARFold FoldHalf
 *UIConstraints: *Option7 False		*ARFold FoldC
@@ -1869,7 +1869,7 @@
 *% **** Input Tray Options *****************************************************
 *OpenUI *Option5/Input Tray Options: PickOne
 *OrderDependency: 0.0 AnySetup *Option5
-*DefaultOption5: NotInstalled
+*DefaultOption5: TandemTrayDrawer
 *Option5 NotInstalled/One Tray: ""
 *Option5 1TrayDrawer/Two Trays: ""
 *Option5 2TrayDrawer/Three Trays: ""
@@ -1919,7 +1919,7 @@
 *% **** Output Tray Options ****************************************************
 *OpenUI *Option1/Output Tray Options: PickOne
 *OrderDependency: 0.0 AnySetup *Option1
-*DefaultOption1: NotInstalled
+*DefaultOption1: LSSFinisher
 *Option1 NotInstalled/Not Installed: ""
 *Option1 InnerFinisher/Inner Finisher: ""
 *Option1 Finisher/Finisher: ""
@@ -1960,7 +1960,7 @@
 *% **** Punch Module ***********************************************************
 *OpenUI *Option9/Punch Module: PickOne
 *OrderDependency: 0.0 AnySetup *Option9
-*DefaultOption9: NotInstalled
+*DefaultOption9: PModule33
 *Option9 NotInstalled/Not Installed: ""
 *Option9 PModule33/3 Holes: ""
 *Option9 PModule24/2<2F>4 Holes: ""
@@ -2004,7 +2004,7 @@
 
 *% **** Folding Unit ***********************************************************
 *OpenUI *Option7/Folding Unit: Boolean
-*DefaultOption7: False
+*DefaultOption7: True
 *Option7 False/Not Installed: ""
 *Option7 True/Installed: ""
 *?Option7: "
